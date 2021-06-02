@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  color: #fff;
+  line-height: 1.3;
+}
+.feeds {
+  padding: 1rem 1rem;
+}
+input {
+  color: #fff;
+}
+nav {
+  background: linear-gradient(to right, #7b1db1, #18bae2, #1fb998);
+  color: #ebdc13;
+  font-family: sans-serif;
+}
+.form{
+    display: flex ;
+    align-items: center;
+}
+.form input {
+  margin-top: 2rem !important;
+  border-top: 2px solid #0a81ab !important;
+  border-left: 2px solid #ff449f !important;
+  border-bottom: 2px solid #00ead3 !important;
+  color: #0ffcfc !important;
+  text-align: center;
+  border-radius: 3px 0px 0px 3px !important;
+}
+.searchBtn{
+    height: 47px;
+    /* margin-top: 6px; */
+    position: relative;
+    top: 10px;
+    background: linear-gradient(to right, #18bae2, #18bae2, #7b1db1);
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 16px;
+    cursor: pointer;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.card-image{
+  border-top: 4px solid #a8ab0a ;
+  border-right: 4px solid #0aab25 ;
+  border-left: 4px solid #ef44ff ;
+  border-bottom: 4px solid #00ead3 ;
+  transition: .2s;
+}
+.card-image:hover{
+  border-top: 4px solid #0a42ab ;
+  border-right: 4px solid #ab300a ;
+  border-left: 4px solid #fffc44 ;
+  border-bottom: 4px solid #07f527 ;
+}
+
+.clearBtn {
+  display: block;
+  width: 100%;
+  background: linear-gradient(to right, #7b1db1, #18bae2, #1fb998);
+  border: none;
+  padding: 10px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 3px !important;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.loadingBox {
+    display: flex;
+    justify-content: center;
+}
+.loadingBox img{
+    height: 300px;
+}
+.about h3{
+  color: #9522d8;
+}
+.about p{
+  color: #18dbe2;
+  line-height: .7;
+}
+.about p a:hover{
+  color: #ebdc13;
+  border-bottom: #ebdc13 1px solid;
+}
+.alert p{
+  background: linear-gradient(to right, #e2188e, #a218e2, #eb4f08);
+  padding: 5px 0;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.msg p{
+  background: linear-gradient(to right, #043f8b, #09776e, #9c68b4, #6108aa);
+  padding: 1rem 0;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
